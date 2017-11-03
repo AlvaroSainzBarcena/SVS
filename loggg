@@ -1,0 +1,8 @@
+2017-11-03 15:29:27:387 Fri Nov 03 15:29:27 GMT+01:00 2017
+2017-11-03 15:29:27:393 Warning! This is a non-compliant benchmark run.
+2017-11-03 15:29:27:394 SpecwebControl: ******* SPECweb2005 benchmark started
+2017-11-03 15:29:27:395 SpecwebControl: *** Running SPECweb_Ecommerce workload
+2017-11-03 15:29:27:395 SpecwebControl: *** Starting Iteration 1 of 1
+2017-11-03 15:29:27:395 Configuration: Clearing workload.
+2017-11-03 15:29:27:399 RemoteLoadGen: Total clients: 1
+2017-11-03 15:29:27:399 RemoteLoadGen: Adding host localhost
