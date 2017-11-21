@@ -1,0 +1,306 @@
+    1  reboot 
+    2  vi /etc/sudoers
+    3  vi /etc/sudoers
+    4  vim /etc/sudoers
+    5  chmod 777 /etc/sudoers
+    6  vi /etc/sudoers
+    7  su alvaro
+    8  apt-get install xen-hypervisor-amd64
+    9  apt-get install sudo
+   10  login alvaro
+   11  ls
+   12  apt-get install xen-hypervisor-amd64
+   13  ls
+   14  apt-get install xen-hypervisor-4.1-amd64
+   15  more /boot/grub/grub.cfg 
+   16  ls
+   17  reboot 
+   18  vi /etc/sudoers
+   19  login
+   20  ls
+   21  ls
+   22  dmesg | grep xen
+   23  xm dmesg
+   24  ifconfig 
+   25  xen-create-image --hostname=prueba --ip 172.16.30.130 --netmask 255.255.255.0 --gateway 172.16.30.129 --dir /xen/ --force
+   26  xen-create-image --hostname=prueba --ip 172.16.30.130 --netmask 255.255.255.0 --gateway 172.16.30.129 --dir /xen/ --force
+   27  xen-create-image --hostname=prueba --ip 172.16.30.130 --netmask 255.255.255.0 --gateway 172.16.30.129 --dir /xen/ --force
+   28  apt-get install xen-tools
+   29  ls
+   30  apt-get install xen-tools
+   31  vi /etc/apt/sources.list
+   32  apt-get install xen-tools
+   33  xen-create-image --hostname=prueba --dhcp --dir /xen/ --force
+   34  xen-create-image --hostname=prueba --dhcp --dir /xen/ --force
+   35  vi /etc/apt/sources.list
+   36  vi /etc/apt/sources.list
+   37  vi /etc/apt/sources.list
+   38  vi /etc/apt/sources.list
+   39  xen-create-image --hostname=prueba --dhcp --dir /xen/ --force
+   40  man dd
+   41  dd if=/dev/zero of=manual.img bs=1G count=4
+   42  ls
+   43  ls
+   44  ls -.l
+   45  ls -l
+   46  mkfs.ext4 manual.img 
+   47  ls -l
+   48  debootstrap --arch amd64 wheezy /mnt/ http://ftp.fr.debian.org/debian/
+   49  man rinse
+   50  rinse --distribution centos-6 --arch amd64 --directory /mnt/
+   51  ls
+   52  ls
+   53  ls /mnt/
+   54  ls -l /mnt/
+   55  ls -l /mnt/ | grep 21
+   56  ls -l /mnt/ | grep 20
+   57  ls
+   58  rm -r /mnt/*
+   59  mkfs.ext4 manual.img 
+   60  ls /mnt/
+   61  mount manual.img /mnt/
+   62  debootstrap --arch amd64 wheezy /mnt/ http://ftp.fr.debian.org/debian/
+   63  cp /etc/resolv.conf /mnt/etc/
+   64  ls /mnt/
+   65  ls /mnt/etc/
+   66  xm list
+   67  xm list
+   68  mount -t proc proc /mnt/proc/
+   69  mount --rbind /sys /mnt/sys/
+   70  mount --rbind /dev /mnt/dev/
+   71  chroot /mnt/
+   72  ls
+   73  umount /mnt/dev/
+   74  umount /mnt/dev/
+   75  umount /mnt/dev/
+   76  ls
+   77  umount /mnt/dev/
+   78  umount /mnt/dev/
+   79  xm list
+   80  umount /mnt/dev/
+   81  umount /mnt/dev/
+   82  xm list
+   83  ls
+   84  ls
+   85  ls
+   86  mount
+   87  exit
+   88  ls
+   89  umount /mnt/dev/
+   90  exit
+   91  exit
+   92  umount /mnt/dev/
+   93  lsof
+   94  apt-get install lsof
+   95  umount /mnt/dev/
+   96  lsof /mnt/dev/
+   97  lsof /mnt/
+   98  lsof 
+   99  lsof /mnt/dev/
+  100  lsof /mnt/dev/ | more
+  101  service apache2 stop
+  102  poweroff 
+  103  ls
+  104  ls
+  105  reboot 
+  106  ls /etc/xen/
+  107  ls /etc/xen-tools/
+  108  ls /xen/
+  109  ls /xen/domains/prueba/
+  110  vim /etc/apt/sources.list
+  111  vim /etc/apt/sources.list
+  112  vim /etc/apt/sources.list
+  113  ls /xen/
+  114  ls /xen/domains/
+  115  ls /xen/domains/prueba/
+  116  xm list
+  117  xm list
+  118  pws
+  119  pwd
+  120  ls
+  121  ps
+  122  ps -a
+  123  xm shutdown
+  124  xm list
+  125  xm shutdown 1
+  126  more /var/log/xen-tools/prueba.log 
+  127  more /var/log/xen-tools/prueba.log 
+  128  more /var/log/xen-tools/prueba.log 
+  129  more /var/log/xen-tools/prueba.1.log 
+  130  more /var/log/xen-tools/prueba.log 
+  131  ls
+  132  ls
+  133  xm list
+  134  xm list
+  135  ls
+  136  ls
+  137  mount manual.img /mnt/
+  138  ls
+  139  more /mnt/etc/shadow
+  140  more /etc/shadow
+  141  more /mnt/etc/shadow
+  142  xm list
+  143  ifconfig 
+  144  /etc/xen/scripts/network-bridge status
+  145  ifconfig 
+  146  xm vcpu list
+  147  xm vcpeu-list
+  148  xm vcpu-list
+  149  ls
+  150  history 
+  151  mkdir git
+  152  ls
+  153  cd git/
+  154  ls
+  155  history >> comandos
+  156  git init
+  157  apt-get install git
+  158  git add ../manual.cfg 
+  159  cd ..
+  160  rm -r git/
+  161  mkdir .git
+  162  cd .git
+  163  ls
+  164  git init
+  165  ls
+  166  git add ../manual.cfg 
+  167  cp ../manual.cfg 
+  168  cp ../manual.cfg .
+  169  git add manual.cfg 
+  170  git commit -m "config de la vm"
+  171  git push -u http://github.com/AlvaroSainzBarcena/SVS/practica2/
+  172  git push -u http://github.com/AlvaroSainzBarcena/
+  173  git push -u origin master
+  174  ls
+  175  git push -u remote http://github.com/AlvaroSainzBarcena/SVS/practica2/
+  176  cd ..
+  177  poweroff 
+  178  ls
+  179  ls
+  180  ls
+  181  ls
+  182  ls
+  183  ls
+  184  ls -l
+  185  ls
+  186  apt-get install vim
+  187  vim configFile
+  188  ls
+  189  ls /xen/domains/
+  190  ls /xen/domains/prueba/
+  191  ls /xen/
+  192  cp /etc/xen-tools/xen-tools.conf .
+  193  ls
+  194  rm configFile 
+  195  vim xen-tools.conf 
+  196  vim xen-tools.conf 
+  197  ls
+  198  vim VMconfig.conf
+  199  ls /dev/
+  200  xm list
+  201  vim VMconfig.conf
+  202  ls
+  203  vim xen-tools.conf 
+  204  xen-create-image --hostname=prueba --dhcp --dir /xen/ --force
+  205  xen-create-image --hostname=prueba --dhcp --dir /xen/ --force
+  206  ls
+  207  rm xen-tools.conf VMconfig.conf 
+  208  ls
+  209  cp /etc/xen/prueba.cfg .
+  210  ls
+  211  vim prueba.cfg 
+  212  ls
+  213  mv prueba.cfg manual.cfg
+  214  ls
+  215  xm list
+  216  ls
+  217  vim /etc/xen-tools/xen-tools.conf 
+  218  vim /etc/xen/xend-config.sxp 
+  219  vim /etc/xen/xend-config.sxp 
+  220  service xen restart
+  221  xm create -c manual.cfg 
+  222  ls
+  223  ls
+  224  mount manual.img /mnt/
+  225  ls /mnt/
+  226  vim /mnt/etc/inittab 
+  227  umount /mnt/
+  228  xm create -c manual.cfg 
+  229  more /etc/shadow
+  230  cp /etc/shadow .
+  231  ls
+  232  cp shadow /mnt/etc/shadow
+  233  more /etc/shadow
+  234  ls
+  235  xm create -c manual.cfg 
+  236  xm list
+  237  xm shutdown 2
+  238  xm list
+  239  xm create -c manual.cfg 
+  240  ls
+  241  apt-get install xfce4
+  242  vim /etc/apt/sources.list
+  243  apt-get update
+  244  apt-cache search radeon
+  245  apt-get install firmware-linux-nonfree
+  246  ls
+  247  exec ck-launch-session startxfce4
+  248  startx
+  249  reboot 
+  250  ls
+  251  apt-get install lvm2
+  252  gparted
+  253  apt-get install gparted
+  254  gparted
+  255  startx
+  256  pvcreate /dev/sda7
+  257  pvcreate /dev/sda7
+  258  pvcreate /dev/sda7
+  259  pvcreate /dev/sda7
+  260  sblk
+  261  lsblk
+  262  pvcreate /dev/sda7
+  263  ls
+  264  mount 
+  265  ls
+  266  gparted
+  267  gparted
+  268  vim /etc/xen/prueba.cfg 
+  269  history 
+  270  ls
+  271  mount manual.img /mnt/
+  272  umount /mnt/
+  273  ls
+  274  pvcreate /dev/sda8
+  275  vgcreate vol1 /dev/sda8
+  276  lvcreate -L16G -n base vol1
+  277  dd if=/dev/sda6 of=/dev/vol1/base
+  278  fsck /dev/vol1/base 
+  279  mouunt /dev/vol1/base /mnt/
+  280  mount /dev/vol1/base /mnt/
+  281  ls /mnt/
+  282  ls
+  283  vim /mnt/etc/inittab 
+  284  umount /mnt/
+  285  vim /etc/xen/prueba.cfg 
+  286  vim /etc/xen/prueba.cfg 
+  287  ls /etc/xen/
+  288  cp /etc/xen/prueba.cfg /etc/xen/configBase.cfg
+  289  vim /etc/xen/configBase.cfg 
+  290  xm list
+  291  xm shutdown 1
+  292  xm list
+  293  xm list
+  294  xm list
+  295  xm list
+  296  umount /mnt/
+  297  xm create -c /etc/xen/configBase.cfg 
+  298  xz<>>>>>;6~;6~;6~;6~;6~;6~;6~;6~;6~<<<<<<<<<;5~5~5~;5~
+  299   ~
+  300  startx
+  301  ls /dev/
+  302  ls /dev/vol1
+  303  ls /dev/vxvda2
+  304  ls /dev/ | grep xvda
+  305  history 
+  306  history >> comandos.txt
