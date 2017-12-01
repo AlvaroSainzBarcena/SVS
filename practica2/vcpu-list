@@ -1,0 +1,9 @@
+Name                                ID  VCPU   CPU State   Time(s) CPU Affinity
+Domain-0                             0     0     0   r--      37.5 any cpu
+Domain-0                             0     1     -   --p       1.3 any cpu
+Domain-0                             0     2     -   --p       1.2 any cpu
+Domain-0                             0     3     -   --p       1.5 any cpu
+domU1                                      0                   0.0 1
+domU2                                      0                   0.0 2
+domU3                                      0                   0.0 any cpu
+domU4                                      0                   0.0 3
