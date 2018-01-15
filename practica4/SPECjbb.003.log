@@ -1,0 +1,48 @@
+Jan 13, 2018 12:36:06 PM spec.jbb.JBBmain main -> INFO: Logging started
+Jan 13, 2018 12:36:07 PM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 1...
+Jan 13, 2018 12:36:07 PM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jan 13, 2018 12:36:07 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jan 13, 2018 12:36:07 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Sat Jan 13 12:36:07 CET 2018 for 0.5 minutes
+Jan 13, 2018 12:36:37 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Sat Jan 13 12:36:37 CET 2018
+Jan 13, 2018 12:36:37 PM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 2...
+Jan 13, 2018 12:36:37 PM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jan 13, 2018 12:36:37 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jan 13, 2018 12:36:37 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jan 13, 2018 12:36:37 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Sat Jan 13 12:36:37 CET 2018 for 0.5 minutes
+Jan 13, 2018 12:37:07 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Sat Jan 13 12:37:07 CET 2018
+Jan 13, 2018 12:37:08 PM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 3...
+Jan 13, 2018 12:37:08 PM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jan 13, 2018 12:37:08 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jan 13, 2018 12:37:08 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jan 13, 2018 12:37:08 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jan 13, 2018 12:37:08 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Sat Jan 13 12:37:08 CET 2018 for 0.5 minutes
+Jan 13, 2018 12:37:38 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Sat Jan 13 12:37:38 CET 2018
+Jan 13, 2018 12:37:39 PM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 4...
+Jan 13, 2018 12:37:39 PM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jan 13, 2018 12:37:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jan 13, 2018 12:37:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jan 13, 2018 12:37:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jan 13, 2018 12:37:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jan 13, 2018 12:37:39 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Sat Jan 13 12:37:39 CET 2018 for 4 minutes
+Jan 13, 2018 12:41:39 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Sat Jan 13 12:41:39 CET 2018
+Jan 13, 2018 12:41:39 PM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 5...
+Jan 13, 2018 12:41:39 PM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jan 13, 2018 12:41:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jan 13, 2018 12:41:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jan 13, 2018 12:41:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jan 13, 2018 12:41:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jan 13, 2018 12:41:39 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 5
+Jan 13, 2018 12:41:39 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Sat Jan 13 12:41:39 CET 2018 for 4 minutes
+Jan 13, 2018 12:45:39 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Sat Jan 13 12:45:39 CET 2018
+Jan 13, 2018 12:45:39 PM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 6...
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 5
+Jan 13, 2018 12:45:40 PM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 6
+Jan 13, 2018 12:45:40 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Sat Jan 13 12:45:40 CET 2018 for 4 minutes
+Jan 13, 2018 12:49:40 PM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Sat Jan 13 12:49:40 CET 2018
+Jan 13, 2018 12:49:40 PM spec.jbb.JBBmain callReporter -> INFO: Calling Reporter
+Jan 13, 2018 12:49:40 PM spec.jbb.JBBmain main -> INFO: Logging ended
