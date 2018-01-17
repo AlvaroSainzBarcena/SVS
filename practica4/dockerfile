@@ -1,0 +1,28 @@
+###### Dockerfile to deploy SPECjbb2005 ######
+
+### Based on Debian:wheezy ###
+
+# Set the base image to debian
+FROM debian:wheezy
+
+MAINTAINER Alvaro <asb52@alumnos.unican.es>
+
+# Install java 7
+RUN apt-get update &&  apt-get install -y openjdk-7-jdk
+
+RUN apt-get install -y wget
+
+# Download source code SPECjbb2005
+RUN wget https://www.ce.unican.es/~vpuente/SVS/SPECjbb2005.tar.gz
+RUN tar zxfv SPECjbb2005.tar.gz
+
+
+# Eliminate from line 7 till end
+RUN sed '7,$d' SPECjbb2005/1.04/run.sh
+
+#Path to java-7-openjdk
+RUN echo /usr/lib/jvm/java-7-openjdk-amd64/bin/java -fullversion >> SPECjbb2005/1.04/run.sh
+RUN echo /usr/lib/jvm/java-7-openjdk-amd64/bin/java -Xms1024m -Xmx1024m spec.jbb.JBBmain -profile SPECjbb.props >> SPECjbb2005/1.04/run.sh
+RUN echo date >> SPECjbb2005/1.04/run.sh
+
+
